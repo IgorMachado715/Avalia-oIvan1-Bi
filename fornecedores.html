@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Empresa XYZ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="fornecedores.html">Fornecedores</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Fornecedores</h1>
+            <p>Preencha os campos abaixo para adicionar um fornecedor:</p>
+            <form id="formularioFornecedores" action="">
+                <div id="mensagens">Erro</div>
+                <div>
+                    <input type="text" placeholder="Nome" id="nome" />
+                </div>
+                <div>
+                    <input type="email" placeholder="Email" id="email" />
+                </div>
+                <div> 
+                    <input type="telefone" placeholder="Telefone" id="telefone"/>
+                </div> 
+                <div>
+                    <input type="text" placeholder="Produto" id="produto" />
+                </div>
+                <div>
+                    <input type="submit" value="Adicionar">
+                </div>
+            </form>
+            <ul id="fornecedores"></ul>
+        </main>
+
+        <footer>Todos os direitos reservados - 2020</footer>
+        <script src="js/fornecedores.js"></script>
+    </body>
+</html>

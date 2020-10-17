@@ -1,0 +1,118 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/** Menu */
+nav {
+    font-weight: bold;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000FF;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #666666;
+}
+
+/** Main section */
+main {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/** Footer */
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+/** Blog page */
+main section article {
+    padding: 20px;
+}
+
+main section article:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+main section article:hover {
+    background-color: #ececec;
+    
+}
+
+.leia-mais {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.leia-mais:hover {
+    background-color: #00aeff;
+}
+
+/** Contact page */
+input,
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    color: #333333;
+}
+
+input:hover,
+textarea:hover {
+    border: solid 2px #000000;
+}
+
+#mensagens {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#fornecedores li:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
